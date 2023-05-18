@@ -1,0 +1,78 @@
+.container {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  top: 0;
+}
+
+.scoreboard {
+  height: 1080px;
+  width: 1920px;
+  text-align: center;
+  /* Below for black background */
+  background: #000 !important;
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+.upperPart {
+  height: 20%;
+  margin-top: 60px;
+}
+.lowerPart {
+  height: 80%;
+}
+.column {
+  float: left;
+  width: 50%;
+}
+.columnL {
+  float: left;
+  margin-right: 10px;
+}
+.columnR {
+  float: right;
+  margin-left: 10px;
+}
+.columnUp {
+  float: left;
+  width: 33%;
+}
+.row::after {
+  clear: both;
+}
+img {
+  width: 230px;
+  height: 230px;
+}
+.czasGlowny {
+  font-size: 100px;
+}
+.sekund {
+  font-size: 72px;
+}
+.kwarta {
+  font-size: 40px;
+}
+.utilL {
+  font-size: 40px;
+  background-color: rgb(90, 90, 213);
+  color: rgb(246, 238, 238);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.utilR {
+  font-size: 40px;
+  background-color: rgb(90, 90, 213);
+  color: rgb(246, 238, 238);
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 5px;
+}
+.teamScore {
+  font-size: 100px;
+}
+
+.upper-score {
+  padding-bottom: 30px;
+}

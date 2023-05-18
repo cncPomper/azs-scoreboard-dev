@@ -1,0 +1,30 @@
+.player {
+  font-size: 34px;
+  display: inline-block;
+  margin-bottom: 5px;
+  text-align: center;
+  background-color: rgb(90, 90, 213);
+  color: rgb(246, 238, 238);
+  border-top-right-radius: 10px;
+  border-bottom-left-radius: 10px;
+}
+.num {
+  display: inline-block;
+  width: 100px;
+}
+.name {
+  display: inline-block;
+  width: 240px;
+}
+.surname {
+  display: inline-block;
+  width: 360px;
+}
+.exclusions {
+  display: inline-block;
+  width: 60px;
+}
+.score {
+  display: inline-block;
+  width: 60px;
+}
