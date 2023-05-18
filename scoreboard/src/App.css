@@ -10,7 +10,7 @@
   width: 1920px;
   text-align: center;
   /* Below for black background */
-  background: #000 !important;
+  background: #0a053a !important;
   -webkit-print-color-adjust: exact;
   print-color-adjust: exact;
 }
@@ -73,6 +73,6 @@ img {
   font-size: 100px;
 }
 
-.upper-score {
-  padding-bottom: 30px;
+.players-wrapper {
+  display: flex;
 }

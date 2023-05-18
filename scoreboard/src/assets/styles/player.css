@@ -2,29 +2,35 @@
   font-size: 34px;
   display: inline-block;
   margin-bottom: 5px;
+  padding: 1px;
   text-align: center;
-  background-color: rgb(90, 90, 213);
+  background-color: rgb(36, 69, 175);
   color: rgb(246, 238, 238);
-  border-top-right-radius: 10px;
-  border-bottom-left-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
 }
 .num {
   display: inline-block;
   width: 100px;
+  color: rgb(202, 202, 221);
 }
 .name {
   display: inline-block;
   width: 240px;
+  text-align: left;
 }
 .surname {
   display: inline-block;
   width: 360px;
+  text-align: left;
 }
 .exclusions {
   display: inline-block;
   width: 60px;
+  color: rgb(255, 119, 119);
 }
 .score {
   display: inline-block;
   width: 60px;
+  color: rgb(161, 248, 184);
 }
