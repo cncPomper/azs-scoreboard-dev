@@ -15,5 +15,5 @@ Jeśli powyższa komenda nie zadziała prawdopodobnie należy doinstalować odpo
 - Node.js (do pobrania z https://nodejs.org/en/download)
   ![Jak pobrać node'a](./instruction_details/download_node.png)
 
-Po pobraniu wykonujemy ponownie punkt 4.
+Po pobraniu i instalacji node.js wykonujemy ponownie punkt 4.
 W razie problemów proszę o kontakt na piotr.kitlowski@gmail.com
