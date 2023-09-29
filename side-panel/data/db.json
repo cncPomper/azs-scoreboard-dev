@@ -1,15 +1,27 @@
 {
+  "team_logo": {
+    "azs": "/images/AZS-Uniwersytet-Warszawski.png",
+    "poznan": "/images/BOX-Logistics-Poznan.png",
+    "alfa": "/images/Alfa-Gorzow-Wielkopolski.png",
+    "arkonia": "/images/arkonia_szczecin-removebg-preview.png",
+    "kszo": "/images/KSZO-Ostrowiec-Swietokrzyski.png",
+    "lstw": "/images/LSTW-Lodz.png",
+    "bytom": "/images/WTS-Polonia-Bytom.png",
+    "neptun": "/images/brak.png"
+  },
   "score": {
     "score_home": 0,
     "exc_home": 0,
-    "to_home": 2,
+    "to_home": "100",
     "score_guests": 0,
     "exc_guests": 0,
-    "to_guests": 2,
+    "to_guests": "209",
     "time_minutes": 0,
     "time_seconds": 0,
     "action_time": 30,
-    "quarter": 4
+    "quarter": "3",
+    "home_img": "/images/WTS-Polonia-Bytom.png",
+    "guests_img": "/images/WTS-Polonia-Bytom.png"
   },
   "players_home": [
     {
@@ -17,14 +29,14 @@
       "num": 1,
       "name": "Bartłomiej",
       "surname": "Benda",
-      "exclusions": 0,
-      "goals": 0
+      "goals": "5",
+      "exclusions": "0"
     },
     {
       "id": 1,
       "num": 2,
-      "name": "NoweImię",
-      "surname": "NoweNazwisko",
+      "name": "Paweł",
+      "surname": "NoweNazwisko22222",
       "goals": "5",
       "exclusions": "2"
     },
@@ -32,25 +44,25 @@
       "id": 2,
       "num": 3,
       "name": "Piotr",
-      "surname": "Idzi",
-      "exclusions": 0,
-      "goals": 3
+      "surname": "Idzi1213",
+      "goals": "30",
+      "exclusions": "0"
     },
     {
       "id": 3,
       "num": 4,
       "name": "Piotr",
       "surname": "Idzi",
-      "exclusions": 0,
-      "goals": 3
+      "exclusions": "0",
+      "goals": "3"
     },
     {
       "id": 4,
       "num": 5,
       "name": "Przemysław",
       "surname": "Rudziński",
-      "exclusions": 1,
-      "goals": 2
+      "exclusions": "1",
+      "goals": "2"
     },
     {
       "id": 5,
@@ -58,7 +70,7 @@
       "name": "Kiril",
       "surname": "Tumoian",
       "goals": "1",
-      "exclusions": 1
+      "exclusions": "1"
     },
     {
       "id": 6,
@@ -74,15 +86,15 @@
       "name": "Nowy",
       "surname": "Kolo",
       "goals": "100",
-      "exclusions": 1
+      "exclusions": "1"
     },
     {
       "id": 8,
       "num": 9,
       "name": "Piotr",
       "surname": "Kitłowski",
-      "exclusions": 1,
-      "goals": 5
+      "goals": "50",
+      "exclusions": "1"
     },
     {
       "id": 9,
@@ -97,8 +109,8 @@
       "num": 11,
       "name": "Piotr",
       "surname": "Kitłowski",
-      "exclusions": 0,
-      "goals": 1
+      "exclusions": "0",
+      "goals": "1"
     },
     {
       "id": 11,
@@ -143,8 +155,80 @@
       "exclusions": 2
     },
     {
-      "id": 3,
+      "id": 16,
       "num": 4,
+      "name": "Daniel",
+      "surname": "Pepliński",
+      "goals": 2,
+      "exclusions": 0
+    },
+    {
+      "id": 17,
+      "num": 5,
+      "name": "Maciej",
+      "surname": "Borkowski",
+      "goals": "10",
+      "exclusions": 1
+    },
+    {
+      "id": 18,
+      "num": 6,
+      "name": "Jan",
+      "surname": "Wiśniewski",
+      "goals": "60",
+      "exclusions": 0
+    },
+    {
+      "id": 19,
+      "num": 7,
+      "name": "Paweł",
+      "surname": "Nizioł",
+      "goals": "100",
+      "exclusions": 2
+    },
+    {
+      "id": 20,
+      "num": 8,
+      "name": "Daniel",
+      "surname": "Pepliński2",
+      "goals": 2,
+      "exclusions": 0
+    },
+    {
+      "id": 21,
+      "num": 9,
+      "name": "Daniel",
+      "surname": "Pepliński",
+      "exclusions": 0,
+      "goals": 2
+    },
+    {
+      "id": 22,
+      "num": 10,
+      "name": "Daniel",
+      "surname": "Pepliński",
+      "exclusions": 0,
+      "goals": 2
+    },
+    {
+      "id": 23,
+      "num": 11,
+      "name": "Daniel",
+      "surname": "Pepliński",
+      "exclusions": 0,
+      "goals": 2
+    },
+    {
+      "id": 24,
+      "num": 12,
+      "name": "Daniel",
+      "surname": "Pepliński",
+      "exclusions": 0,
+      "goals": 2
+    },
+    {
+      "id": 25,
+      "num": 13,
       "name": "Daniel",
       "surname": "Pepliński",
       "exclusions": 0,

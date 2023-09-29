@@ -1,9 +1,8 @@
-import React from 'react'
-import './assets/styles/player.css'
-import { Link } from 'react-router-dom';
+import React from "react";
+import "./assets/styles/player.css";
+import { Link } from "react-router-dom";
 
 const Player = ({ player }) => {
-
   return (
     <>
       <Link to={`/player/${player.id}`}>
@@ -16,8 +15,7 @@ const Player = ({ player }) => {
         </div>
       </Link>
     </>
-
-  )
-}
+  );
+};
 
 export default Player;

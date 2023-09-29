@@ -8,7 +8,18 @@ class Score extends Component {
 
 
   render() {
-    const { score_home, exc_home, to_home, score_guests, exc_guests, to_guests, time_minutes, time_seconds, action_time, quarter } = this.props.score;
+    const { score_home,
+      exc_home,
+      to_home,
+      score_guests,
+      exc_guests,
+      to_guests,
+      time_minutes,
+      time_seconds,
+      action_time,
+      quarter,
+      home_img,
+      guests_img} = this.props.score;
     // const { dataGuest } = this.props.dataguest
 
     // const calcScore = (data) => {
@@ -25,7 +36,7 @@ class Score extends Component {
         <div className="col-md-4">
           <div className="row">
             <div className="col-md-6">
-              <img src={require('../assets/AZS-Uniwersytet-Warszawski.png')} />
+              <img src={home_img} />
             </div>
               <div className="col-md-6">
               <div className="row utilL">{this.props.scorehome}</div>
@@ -49,7 +60,7 @@ class Score extends Component {
               <div className="row utilL">Timeouts left: {to_guests}</div>
             </div>
             <div className="col-md-6">
-              <img src={require('../assets/arkonia_szczecin-removebg-preview.png')} />
+              <img src={guests_img} />
             </div>
           </div>
         </div>

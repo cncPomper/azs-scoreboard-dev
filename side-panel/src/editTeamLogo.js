@@ -1,8 +1,7 @@
 import { useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
-import "./assets/styles/playerUpdate.css";
 
-const EditPlayer = ({
+const EditTeamLogo = ({
   teamHome,
   teamGuests,
   handleEdit,
@@ -16,6 +15,12 @@ const EditPlayer = ({
   setEditGoals,
   editExclusions,
   setEditExclusions,
+
+
+  teamHomeLogo,
+  teamGuestLogo
+
+
 }) => {
   const { id } = useParams();
   let player = "";
@@ -119,4 +124,4 @@ const EditPlayer = ({
   );
 };
 
-export default EditPlayer;
+export default EditTeamLogo;
