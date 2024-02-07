@@ -8,7 +8,20 @@
 1. Wchodzimy do katalogu w którym chcemy mieć program przy użyciu cmd (Command Prompt)
 2. `git clone git@github.com:cncPomper/azs-scoreboard-dev.git`
 3. Wchodzimy do katalogu "azs-scoreboard-dev"
-4. Program uruchamiamy tą komendą(w cmd) `npm run azs`
+4. Instalujemy brakujące biblioteki:
+  a. w folderze scoreboard/ wykonujemy komendę
+  ```bash
+  npm ci
+  ```
+  b. w folderze side-panel/ wykonujemy komendę
+  ```bash
+  npm ci
+  ```
+5. Program uruchamiamy tą komendą(w cmd)
+```bash
+npm run azs
+```
+(będąc w folderze azs-scoreboard-dev)
 
 Jeśli powyższa komenda nie zadziała prawdopodobnie należy doinstalować odpowiednie biblioteki:
 
