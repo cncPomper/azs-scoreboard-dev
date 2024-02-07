@@ -17,6 +17,10 @@
   },
   "scripts": {
     "azs": "concurrently \"cd scoreboard && npm run start\" \"cd side-panel && npm run start\" \"npx json-server -p 8000 -w side-panel/data/db.json\"",
+    "pull-packages": "concurrently \"npm ci\" \"cd scoreboard && npm ci\" \"cd side-panel && npm ci\"",
+    "scoreboard-packages": "cd scoreboard && npm ci",
+    "side-panel-packages": "cd side-panel && npm ci",
+    "azs-scoreboard-dev-packages": "npm ci",
     "electron": "electron ."
   }
 }
